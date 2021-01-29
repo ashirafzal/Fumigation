@@ -17,6 +17,22 @@
     <!-- Styles -->
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <style>
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        .footer-bottom{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -123,7 +139,6 @@
                                     <a href="#" title="">FAQ</a>
                                 </li>
                             </ul>
-
                             <div class="clearfix"></div>
                         </div>
                     </div>
@@ -160,13 +175,13 @@
                                     <i class="ti-pinterest" aria-hidden="true"></i>
                                 </a>
                             </li>
-                        </ul><!-- /.social-ft -->
+                        </ul>
                         <div class="copyright" style="margin-bottom:15px;margin-right:41px;">
                             © 2020 Copyright by<a href="https://www.gsemarketing.pk" target="_blank"> GSE Marketing</a>. All rights reserved.
-                        </div><!-- /.copyright -->
-                    </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
