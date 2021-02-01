@@ -8,7 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="app-images/icon/icon.png" rel="shortcut icon">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,20 +16,20 @@
     <!-- Styles -->
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/3.4.0.bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/elegant.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.theme.default.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/revolution-slider.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/shortcodes.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/themify-icons.css') }}" rel="stylesheet">
     <style>
-        footer {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            overflow: hidden;
-        }
-        .footer-bottom{
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            overflow: hidden;
+        .form-check-label{
+            margin-left: 2rem;
         }
     </style>
 </head>
