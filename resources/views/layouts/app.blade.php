@@ -37,7 +37,7 @@
 <body>
     <div id="app">
         <header>
-            <img src="app-images/logo.jpg" alt="logo">
+            <img src="{{asset('app-images/logo.jpg')}}" alt="logo">
         </header>
         <main class="py-4">
             @yield('content')
