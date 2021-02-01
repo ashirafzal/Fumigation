@@ -42,7 +42,7 @@
         <main class="py-4">
             @yield('content')
         </main>
-        <footer>
+        <!-- <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 
